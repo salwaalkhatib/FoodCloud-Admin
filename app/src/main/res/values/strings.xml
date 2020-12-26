@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodCloud Admin</string>
+    <string name="please_pass">Please Enter password</string>
+    <string name="please_username">Please Enter username</string>
+    <string name="error_login">Error</string>
+    <string name="btn1">Items in Order</string>
+    <string name="btn2">Order Redeemed</string>
+</resources>

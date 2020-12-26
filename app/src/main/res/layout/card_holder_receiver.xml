@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#fbeddc"
+       android:orientation="vertical"
+       >
+
+       <TextView
+           android:id="@+id/itemname"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:text="Sample"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textAlignment="textStart"
+           android:gravity="start"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.1"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+           android:id="@+id/category1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="end"
+           android:text="Sample"
+           android:textAlignment="textEnd"
+           android:textSize="15sp"
+           app:layout_constraintBottom_toBottomOf="@+id/date"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.528"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.326" />
+
+       <TextView
+           android:id="@+id/quantity1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginBottom="10dp"
+           android:gravity="end"
+           android:text="Sample"
+           android:textAlignment="textEnd"
+           android:textColor="@color/colorPrimaryDark"
+           android:textSize="15sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+
+           app:layout_constraintEnd_toStartOf="@+id/date"
+           app:layout_constraintHorizontal_bias="0.043"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/itemname"
+           app:layout_constraintVertical_bias="1.0" />
+
+       <TextView
+           android:id="@+id/date"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="end"
+           android:text="TextView"
+
+           android:textAlignment="textEnd"
+           android:textColor="@color/colorPrimaryDark"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.54"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.841" />
+
+       <TextView
+           android:id="@+id/time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TextView"
+           android:textColor="@color/colorPrimaryDark"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.953"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.825" />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"></View>
+
+</androidx.cardview.widget.CardView>
